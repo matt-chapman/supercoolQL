@@ -10,15 +10,5 @@ import com.matthewchapman.ql.visitors.ExpressionVisitor;
  */
 public abstract class Expression extends TreeNode {
 
-    @Override
-    public int getLine() {
-        return super.getLine();
-    }
-
-    @Override
-    public int getColumn() {
-        return super.getColumn();
-    }
-
     public abstract <T, C> T accept(ExpressionVisitor<T, C> visitor, C context);
 }

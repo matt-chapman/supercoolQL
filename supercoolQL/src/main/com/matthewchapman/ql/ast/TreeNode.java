@@ -9,22 +9,22 @@ package com.matthewchapman.ql.ast;
 
 public abstract class TreeNode {
 
-    private int line;
-    private int column;
+    protected int line;
+    protected int column;
 
-    int getLine() {
+    public int getLine() {
         return this.line;
     }
 
-    protected void setLine(int line) {
+    void setLine(int line) {
         this.line = line;
     }
 
-    int getColumn() {
+    public int getColumn() {
         return this.column;
     }
 
-    protected void setColumn(int column) {
+    void setColumn(int column) {
         this.column = column;
     }
 }

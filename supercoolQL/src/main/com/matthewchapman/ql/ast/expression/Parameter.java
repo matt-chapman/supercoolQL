@@ -14,8 +14,8 @@ public class Parameter extends Expression {
 
     public Parameter(String s, int line, int column) {
         this.id = s;
-        super.setLine(line);
-        super.setColumn(column);
+        this.line = line;
+        this.column = column;
     }
 
     public String getID() {

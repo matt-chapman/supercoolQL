@@ -23,8 +23,8 @@ public class IfStatement extends Statement {
         this.ifCaseStatements = new ArrayList<>();
         this.addStatements(s);
         this.condition = e;
-        this.setLine(line);
-        this.setColumn(column);
+        this.line = line;
+        this.column = column;
         this.name = "If Statement";
     }
 

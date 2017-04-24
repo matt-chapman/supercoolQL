@@ -19,8 +19,6 @@ public class Question extends Statement {
         this.name = name;
         this.text = text;
         this.type = type;
-        this.setColumn(column);
-        this.setLine(line);
     }
 
     @Override

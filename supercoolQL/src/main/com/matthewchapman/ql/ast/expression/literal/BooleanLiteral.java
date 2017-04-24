@@ -14,8 +14,8 @@ public class BooleanLiteral extends Expression {
 
     public BooleanLiteral(String value, int line, int column) {
         this.value = Boolean.parseBoolean(value);
-        super.setLine(line);
-        super.setColumn(column);
+        this.line = line;
+        this.column = column;
     }
 
     public boolean getValue() {

@@ -14,8 +14,8 @@ public class Negation extends UnaryOperation {
 
     public Negation(Expression expression, int line, int column) {
         this.expression = expression;
-        super.setLine(line);
-        super.setColumn(column);
+        this.line = line;
+        this.column = column;
     }
 
     public Expression getExpression() {

@@ -12,8 +12,8 @@ public class LessThan extends BinaryOperation {
 
     public LessThan(Expression left, Expression right, int line, int charPositionInLine) {
         super(left, right);
-        super.setLine(line);
-        super.setColumn(charPositionInLine);
+        this.line = line;
+        this.column = charPositionInLine;
     }
 
     @Override
