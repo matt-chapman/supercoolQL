@@ -1,5 +1,5 @@
 exclude:
 - /supercoolQL/src/gen/com/matthewchapman/antlr/.*
-component_depth: 1
+component_depth: 7
 languages:
 - java
